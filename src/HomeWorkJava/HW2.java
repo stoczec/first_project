@@ -1,3 +1,5 @@
+package HomeWorkJava;
+
 public class HW2 {
     public static void main (String[] args) {
 
