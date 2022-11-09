@@ -14,10 +14,10 @@ public class HW5 {
         int numTwo = scanner.nextInt();
         String strOne = Integer. toString(numOne);
         String strTwo = Integer. toString(numTwo);
-        System.out.println(strOne + " + " + strTwo + " = " + (numOne + numTwo));
-        System.out.println(strOne + " - " + strTwo + " = " + (numOne - numTwo));
-        System.out.println(strOne + " * " + strTwo + " = " + (numOne * numTwo));
-        System.out.println(strOne + " / " + strTwo + " = " + (numOne / numTwo));
+        System.out.println(strOne + " + " + strTwo + " = " + ((double) numOne + (double) numTwo));
+        System.out.println(strOne + " - " + strTwo + " = " + ((double) numOne - (double) numTwo));
+        System.out.println(strOne + " * " + strTwo + " = " + ((double) numOne * (double) numTwo));
+        System.out.println(strOne + " / " + strTwo + " = " + ((double) numOne / (double) numTwo));
 
 
         System.out.println("---------------------------");
