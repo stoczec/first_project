@@ -1,4 +1,4 @@
-public class SecondLesson {
+public class Lesson02 {
     public static void main(String[] args) {
        /* System.out.println("Hello, second lesson!");
         System.out.println(5 / 2);

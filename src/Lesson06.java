@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class OperatorIf {
+public class Lesson06 {
     public static void main(String[] args) {
        /* Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();

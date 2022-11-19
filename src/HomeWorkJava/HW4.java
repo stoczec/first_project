@@ -2,7 +2,7 @@ package HomeWorkJava;
 
 import java.util.Scanner;
 
-public class Hw4 {
+public class HW4 {
     public static void main(String[] args) {
 
         System.out.println("Level 1:");
