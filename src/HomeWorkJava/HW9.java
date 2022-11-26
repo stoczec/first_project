@@ -31,5 +31,20 @@ public class HW9 {
             } else account = (int) account * kfPercent;
         }
         System.out.println((int) account);
+
+       // Scanner scanner = new Scanner(System.in);
+       // double speed = scanner.nextDouble();
+       // double[] speedArray = new double[101];
+//
+       // speedArray[0] = speed;
+//
+       // for (int i = 1; i < speedArray.length; i++) {
+       //     speedArray[i] = speedArray[i - 1] * 0.99;
+       // }
+//
+       // //скорость на текущий метр = скорость на прошлый метр * 0.95
+//
+       // System.out.println(Arrays.toString(speedArray));
+
     }
 }
