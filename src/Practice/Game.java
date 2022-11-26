@@ -11,12 +11,6 @@ public class Game {
                 {7, 8, 9}
         };
 
-        /*
-         * 0 1 2
-         * 0 1 2
-         * 0 1 2
-         * */
-
         for (int i = 0; i < array.length; ) {
             for (int j = 0; j < array[i].length; ) {
                 System.out.println("Введите цифрой, направление движения: \n" +
@@ -29,19 +23,19 @@ public class Game {
 
 
                 if (choice == 1) {
-                    array[i] = array[i--];
-                    System.out.println(array[i][j]);
+                    int i1 = array[i--][j];
+                    System.out.println(i1);
                 } else if (choice == 2) {
-                    array[i] = array[i++];
-                    System.out.println(array[i][j]);
+                    int i1 = array[i++][j];
+                    System.out.println(i1);
                 } else if (choice == 3) {
-                    array[j] = array[j--];
-                    System.out.println(array[i][j]);
+                    int i1 = array[i][j--];
+                    System.out.println(i1);
                 } else if (choice == 4) {
-                    array[j] = array[j++];
-                    System.out.println(array[i][j]);
+                    int i1 = array[i][j++];
+                    System.out.println(i1);
                 }
-                if (j >= array[i].length - 1) {
+                if (j > array[i].length - 1) {
                     j--;
                     System.out.println("Вы вышли за границы игровой зоны.\n" +
                             "Вы начинаете с предыдущей позиции.\n");
@@ -49,15 +43,13 @@ public class Game {
                 } else if (j < 0) {
                     j++;
                 }
-                if (i >= array.length - 1) {
+                if (i > array.length - 1) {
                     i--;
                     System.out.println("Вы вышли за границы игровой зоны.\n" +
                             "Вы начинаете с предыдущей позиции.\n");
                     break;
-                } else if (i <0) {
-                    i++;
                 }
-                if (j==10){
+                if (j == 10) {
                     System.out.println("Ты победил!!!");
                     break;
                 }
