@@ -39,11 +39,11 @@ public class Game {
                     j--;
                     System.out.println("Вы вышли за границы игровой зоны.\n" +
                             "Вы начинаете с предыдущей позиции.\n");
-                    continue;
+                    break;
                 } else if (j < 0) {
                     j++;
                 }
-                if (i > array.length - 1) {
+                if (i >= array.length - 1) {
                     i--;
                     System.out.println("Вы вышли за границы игровой зоны.\n" +
                             "Вы начинаете с предыдущей позиции.\n");
