@@ -39,7 +39,7 @@ public class Game {
                     j--;
                     System.out.println("Вы вышли за границы игровой зоны.\n" +
                             "Вы начинаете с предыдущей позиции.\n");
-                    break;
+                    continue;
                 } else if (j < 0) {
                     j++;
                 }
