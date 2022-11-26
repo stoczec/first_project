@@ -35,6 +35,7 @@ public class Game {
                     int i1 = array[i][j++];
                     System.out.println(i1);
                 }
+
                 if (j > array[i].length - 1) {
                     j--;
                     System.out.println("Вы вышли за границы игровой зоны.\n" +
@@ -43,21 +44,19 @@ public class Game {
                 } else if (j < 0) {
                     j++;
                 }
+
                 if (i >= array.length - 1) {
                     i--;
                     System.out.println("Вы вышли за границы игровой зоны.\n" +
                             "Вы начинаете с предыдущей позиции.\n");
                     break;
                 }
+
                 if (j == 10) {
                     System.out.println("Ты победил!!!");
                     break;
                 }
-
             }
-
         }
-
-
     }
 }
