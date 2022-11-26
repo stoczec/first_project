@@ -13,11 +13,12 @@ public class Game {
 
         for (int i = 0; i < array.length; ) {
             for (int j = 0; j < array[i].length; ) {
-                System.out.println("Введите цифрой, направление движения: \n" +
-                        "1) Вверх \n" +
-                        "2) Вниз \n" +
-                        "3) Налево \n" +
-                        "4) Направо");
+                System.out.println("""
+                        Введите цифрой, направление движения:\s
+                        1) Вверх\s
+                        2) Вниз\s
+                        3) Налево\s
+                        4) Направо""");
                 Scanner scanner = new Scanner(System.in);
                 int choice = scanner.nextInt();
 
@@ -38,8 +39,10 @@ public class Game {
 
                 if (j > array[i].length - 1) {
                     j--;
-                    System.out.println("Вы вышли за границы игровой зоны.\n" +
-                            "Вы начинаете с предыдущей позиции.\n");
+                    System.out.println("""
+                            Вы вышли за границы игровой зоны.
+                            Вы начинаете с предыдущей позиции.
+                            """);
                     continue;
                 } else if (j < 0) {
                     j++;
@@ -47,8 +50,10 @@ public class Game {
 
                 if (i >= array.length - 1) {
                     i--;
-                    System.out.println("Вы вышли за границы игровой зоны.\n" +
-                            "Вы начинаете с предыдущей позиции.\n");
+                    System.out.println("""
+                            Вы вышли за границы игровой зоны.
+                            Вы начинаете с предыдущей позиции.
+                            """);
                     break;
                 }
 
