@@ -34,9 +34,6 @@ public class Game {
                                 """);
                     }
                     System.out.println(array[i][j]);
-                    if (array[i][j].equals("Вы нашли клад!")) {
-                        System.out.println("Ты победил!!!");
-                    }
                 } else if (choice == 2) {
                     i++;
                     if (i >= len) {
@@ -47,29 +44,21 @@ public class Game {
                                 """);
                     }
                     System.out.println(array[i][j]);
-                    if (array[i][j].equals("Вы нашли клад!")) {
-                        System.out.println("Ты победил!!!");
-                    }
                 } else if (choice == 3) {
                     j--;
                     if (j < 0) {
                         j++;
                     }
                     System.out.println(array[i][j]);
-                    if (array[i][j].equals("Вы нашли клад!")) {
-                        System.out.println("Ты победил!!!");
-                    }
                 } else if (choice == 4) {
                     j++;
                     if (j >= len) {
                         j--;
                     }
                     System.out.println(array[i][j]);
-                    if (array[i][j].equals("Вы нашли клад!")) {
-                        System.out.println("Ты победил!!!");
-                    }
                 }
                 if (array[i][j].equals("Вы нашли клад!")) {
+                    System.out.println("Теперь ты богат!!!");
                     return;
                 }
             }
