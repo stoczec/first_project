@@ -56,7 +56,7 @@ public class Game {
                     System.out.println(array[i][j]);
                 } else if (choice == 4) {
                     j++;
-                    if (j > array[i].length) {
+                    if (j >= array[i].length) {
                         j--;
                         System.out.println("""
                                  Вы вышли за границы игровой зоны.
