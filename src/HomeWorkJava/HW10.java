@@ -24,7 +24,7 @@ public class HW10 {
         arrayNew[0] = 111;
 
         for (int j = 1; j < arrayNew.length; j++) {
-            arrayNew[11] = arrayNew[11 - 1] + 111;
+            arrayNew[j] = arrayNew[j - 1] + 111;
             if (j % 10 == 0) {
                 arrayNew[j] = 111;
             }
