@@ -48,12 +48,20 @@ public class Game {
                     j--;
                     if (j < 0) {
                         j++;
+                        System.out.println("""
+                                 Вы вышли за границы игровой зоны.
+                                 Вы начинаете с предыдущей позиции.
+                                """);
                     }
                     System.out.println(array[i][j]);
                 } else if (choice == 4) {
                     j++;
-                    if (j >= len) {
+                    if (j > array[i].length) {
                         j--;
+                        System.out.println("""
+                                 Вы вышли за границы игровой зоны.
+                                 Вы начинаете с предыдущей позиции.
+                                """);
                     }
                     System.out.println(array[i][j]);
                 }
