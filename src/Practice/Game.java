@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Game {
     public static void main(String[] args) {
 
-        int[][] array = {
-                {1, 2, 3},
-                {4, 10, 6},
-                {7, 8, 9}
+        String[][] array = {
+                {"Далековато!", "Почти!", "Уже близко!", "Почти!", "Далековато!"},
+                {"Почти!", "Уже близко!", "Вы нашли клад!", "Уже близко!", "Почти!"},
+                {"Далековато!", "Почти!", "Уже близко!", "Почти!", "Далековато!"}
         };
-
-        for (int i = 0; i < array.length; ) {
+        int len = array.length;
+        for (int i = 0; i < len; ) {
             for (int j = 0; j < array[i].length; ) {
                 System.out.println("""
                         Введите цифрой, направление движения:\s
@@ -22,46 +22,57 @@ public class Game {
                 Scanner scanner = new Scanner(System.in);
                 int choice = scanner.nextInt();
 
-
                 if (choice == 1) {
-                    int i1 = array[i--][j];
-                    System.out.println(i1);
-                } else if (choice == 2) {
-                    int i1 = array[i++][j];
-                    System.out.println(i1);
-                } else if (choice == 3) {
-                    int i1 = array[i][j--];
-                    System.out.println(i1);
-                } else if (choice == 4) {
-                    int i1 = array[i][j++];
-                    System.out.println(i1);
-                }
-
-                if (j > array[i].length - 1) {
-                    j--;
-                    System.out.println("""
-                            Вы вышли за границы игровой зоны.
-                            Вы начинаете с предыдущей позиции.
-                            """);
-                    continue;
-                } else if (j < 0) {
-                    j++;
-                }
-
-                if (i >= array.length - 1) {
                     i--;
-                    System.out.println("""
-                            Вы вышли за границы игровой зоны.
-                            Вы начинаете с предыдущей позиции.
-                            """);
-                    break;
+                    if (i < 0) {
+                        i++;
+                        System.out.println("""
+                                 Вы вышли за границы игровой зоны.
+                                 Вы начинаете с предыдущей позиции.
+                                """);
+                    }
+                    System.out.println(array[i][j]);
+                    if (array[i][j].equals("Вы нашли клад!")) {
+                        System.out.println("Ты победил!!!");
+                    }
+                } else if (choice == 2) {
+                    i++;
+                    if (i >= len) {
+                        i--;
+                        System.out.println("""
+                                 Вы вышли за границы игровой зоны.
+                                 Вы начинаете с предыдущей позиции.
+                                """);
+                    }
+                    System.out.println(array[i][j]);
+                    if (array[i][j].equals("Вы нашли клад!")) {
+                        System.out.println("Ты победил!!!");
+                    }
+                } else if (choice == 3) {
+                    j--;
+                    if (j < 0) {
+                        j++;
+                    }
+                    System.out.println(array[i][j]);
+                    if (array[i][j].equals("Вы нашли клад!")) {
+                        System.out.println("Ты победил!!!");
+                    }
+                } else if (choice == 4) {
+                    j++;
+                    if (j >= len) {
+                        j--;
+                    }
+                    System.out.println(array[i][j]);
+                    if (array[i][j].equals("Вы нашли клад!")) {
+                        System.out.println("Ты победил!!!");
+                    }
                 }
-
-                if (j == 10) {
-                    System.out.println("Ты победил!!!");
-                    break;
+                if (array[i][j].equals("Вы нашли клад!")) {
+                    return;
                 }
             }
         }
+
     }
 }
+
