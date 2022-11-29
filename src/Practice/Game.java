@@ -55,7 +55,8 @@ public class Game {
         }
 
     }
-    public static void startTitle(){
+
+    public static void startTitle() {
         System.out.println("""
                 У вас есть возможность найти клад. \s
                 Введите цифрой, направление движения:\s
@@ -65,12 +66,11 @@ public class Game {
                 4) Направо""");
     }
 
-    public static void warning(){
+    public static void warning() {
         System.out.println("""
-                                 Вы вышли за границы игровой зоны.
-                                 Вы начинаете с предыдущей позиции.
-                                """);
+                 Вы вышли за границы игровой зоны.
+                 Вы начинаете с предыдущей позиции.
+                """);
     }
-
 }
 
