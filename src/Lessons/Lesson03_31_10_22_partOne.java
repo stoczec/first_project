@@ -1,6 +1,8 @@
+package Lessons;
+
 import java.util.Scanner;
 
-public class Grandma {
+public class Lesson03_31_10_22_partOne {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 

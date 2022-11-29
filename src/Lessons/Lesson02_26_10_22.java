@@ -1,4 +1,6 @@
-public class Lesson02 {
+package Lessons;
+
+public class Lesson02_26_10_22 {
     public static void main(String[] args) {
        /* System.out.println("Hello, second lesson!");
         System.out.println(5 / 2);

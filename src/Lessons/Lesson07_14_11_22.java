@@ -1,4 +1,6 @@
-public class Lesson07 {
+package Lessons;
+
+public class Lesson07_14_11_22 {
     public static void main(String[] args) {
         //примитивные
         //byte

@@ -1,4 +1,6 @@
-public class Boolean {
+package Lessons;
+
+public class Lesson04_02_11_22 {
     public static void main(String[] args) {
         /*boolean raining =  true;
         System.out.println(raining);

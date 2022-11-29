@@ -1,4 +1,6 @@
-public class DoubleLesson {
+package Lessons;
+
+public class Lesson03_31_10_22_partTwo {
     public static void main(String[] args) {
        byte a; // 1 байт
         short b; // 2 байта

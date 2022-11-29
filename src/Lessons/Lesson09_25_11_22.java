@@ -1,8 +1,10 @@
+package Lessons;
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Lesson09 {
+public class Lesson09_25_11_22 {
     public static void main(String[] args) {
         int a = 5;
 
