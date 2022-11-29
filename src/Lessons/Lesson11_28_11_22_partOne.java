@@ -3,7 +3,7 @@ package Lessons;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Lesson10_28_11_22_partOne {
+public class Lesson11_28_11_22_partOne {
     public static void main(String[] args) {
 
         // с возвращаемым значением - ДЗ с проверкой

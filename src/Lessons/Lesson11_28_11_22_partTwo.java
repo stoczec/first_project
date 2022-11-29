@@ -2,7 +2,7 @@ package Lessons;
 
 import java.util.Scanner;
 
-public class Lesson10_28_11_22_partTwo {
+public class Lesson11_28_11_22_partTwo {
     public static void main(String[] args) {
         int a = getNumber();
         int b = getNumber();
