@@ -1,9 +1,9 @@
 package Lessons;
-
+// 28.11.2022
 import java.util.Random;
 import java.util.Scanner;
 
-public class Lesson11_28_11_22_partOne {
+public class LessonKOne {
     public static void main(String[] args) {
 
         // с возвращаемым значением - ДЗ с проверкой

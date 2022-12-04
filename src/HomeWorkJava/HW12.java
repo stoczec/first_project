@@ -1,8 +1,8 @@
-package Lessons;
+package HomeWorkJava;
 
 import java.util.Scanner;
 
-public class Lesson11_28_11_22_partTwo {
+public class HW12 {
     public static void main(String[] args) {
         int a = getNumber();
         int b = getNumber();

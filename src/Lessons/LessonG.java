@@ -1,6 +1,7 @@
 package Lessons;
+// 14.11.2022
 
-public class Lesson07_14_11_22 {
+public class LessonG {
     public static void main(String[] args) {
         //примитивные
         //byte

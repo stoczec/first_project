@@ -1,8 +1,8 @@
 package Lessons;
-
+// 31.10.2022
 import java.util.Scanner;
 
-public class Lesson03_31_10_22_partOne {
+public class LessonCOne {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 

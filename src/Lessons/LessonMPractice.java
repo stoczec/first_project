@@ -1,6 +1,6 @@
 package Lessons;
-
-public class Lesson12_30_11_22_practice {
+// 30.11.2022
+public class LessonMPractice {
     public static void main(String[] args) {
 
     }

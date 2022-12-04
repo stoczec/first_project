@@ -1,6 +1,7 @@
 package Lessons;
+// 18.11.2022
 
-public class Lesson08_18_11_22 {
+public class LessonH {
     public static void main(String[] args) throws InterruptedException {
         /*Scanner scanner = new Scanner(System.in);
 

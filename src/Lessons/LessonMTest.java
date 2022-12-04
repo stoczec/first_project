@@ -1,8 +1,8 @@
 package Lessons;
-
+// 30.11.2022
 import org.junit.Test;
 
-public class Lesson12_30_11_22Test {
+public class LessonMTest {
 
     @Test
     public void test() {

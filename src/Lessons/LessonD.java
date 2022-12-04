@@ -1,6 +1,7 @@
 package Lessons;
+// 02.11.2022
 
-public class Lesson04_02_11_22 {
+public class LessonD {
     public static void main(String[] args) {
         /*boolean raining =  true;
         System.out.println(raining);

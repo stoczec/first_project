@@ -1,8 +1,9 @@
 package Lessons;
+// 10.11.2022
 
 import java.util.Scanner;
 
-public class Lesson06_10_11_22 {
+public class LessonF {
     public static void main(String[] args) {
        /* Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();

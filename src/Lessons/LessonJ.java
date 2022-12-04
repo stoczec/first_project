@@ -3,8 +3,8 @@ package Lessons;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
-
-public class Lesson10_25_11_22 {
+// 25.11.2022
+public class LessonJ {
     public static void main(String[] args) {
         int a = 5;
 
